@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	ch "github.com/rogeraird/chwallpaper"
 	"time"
 )
@@ -37,7 +36,6 @@ func main() {
 	for {
 		currentWs = ch.GetCWs()
 
-		fmt.Println(currentWs, " ", startWs)
 		if currentWs != startWs {
 			tempWs := currentWs
 			if currentWs > len(wp) {
