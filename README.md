@@ -9,7 +9,7 @@ Schema for JSON
 
 Within the data object is a list of Key -> [Wallpaper]\(Int -> [String]) mappings. Each key maps to a list, so that there can be a slideshow on each workspace.
 
-Confirmed Desktop Enviroments
+Confirmed Desktop Environments
 -------------------------------
 Works on:
 - GNOME
